@@ -1,0 +1,23 @@
+{
+  "name": "simple-osseus-app",
+  "version": "1.0.0",
+  "description": "Simple osseus app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js --ENV LOCAL",
+    "build": "npm install",
+    "lint": "./node_modules/.bin/standard"
+  },
+  "author": "LiorRabin",
+  "license": "ISC",
+  "dependencies": {
+    "@colucom/osseus": "^2.2.7",
+    "@colucom/osseus-logger": "^0.5.1",
+    "@colucom/osseus-router": "^0.4.1",
+    "@colucom/osseus-server": "^0.2.1"
+  },
+  "devDependencies": {
+    "standard": "^12.0.1"
+  }
+}
