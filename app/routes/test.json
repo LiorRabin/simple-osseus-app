@@ -1,7 +1,0 @@
-{
-  "/test": {
-    "POST": {
-      "route": "test"
-    }
-  }
-}

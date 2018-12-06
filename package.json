@@ -7,7 +7,8 @@
     "start": "node index.js",
     "dev": "nodemon index.js --ENV LOCAL",
     "build": "npm install",
-    "lint": "./node_modules/.bin/standard"
+    "lint": "./node_modules/.bin/standard",
+    "apidocs": "node_modules/apidoc/bin/apidoc -i app/ -o docs/"
   },
   "author": "LiorRabin",
   "license": "ISC",
@@ -18,6 +19,15 @@
     "@colucom/osseus-server": "^0.2.1"
   },
   "devDependencies": {
+    "apidoc": "^0.17.7",
     "standard": "^12.0.1"
+  },
+  "standard": {
+    "ignore": [
+      "/docs/*"
+    ]
+  },
+  "apidoc": {
+    "title": "Simple Osseus App API"
   }
 }

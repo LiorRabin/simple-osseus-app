@@ -1,5 +1,4 @@
 const Osseus = require('@colucom/osseus')
-const cwd = process.cwd()
 
 const main = async () => {
   try {
